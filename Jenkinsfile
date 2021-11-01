@@ -10,7 +10,7 @@ pipeline {
             steps {
                 echo 'Initiated Integrated Test Execution'
                 script {
-                    integrationTest.run('Test Stage')
+                    integrationTest.run('Cron Job Repo')
             }
             }
         }
